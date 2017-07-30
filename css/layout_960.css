@@ -1,0 +1,691 @@
+/*
+    Remove this notes
+    #B7B8B6 - Granite
+    #EFEFEF - Paper
+    #E8A735 - Marigold
+    #6EB5C0 - blue topaz
+    #F5BE41 - yellow pepper
+    #F9A603 - orange juice
+    #FAAF08 - citrus
+*/
+
+.page
+{
+    width: 960px;
+    /* center the entire page */
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+}
+
+#symmetric
+{
+    width: 960px;
+    height: 800px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B7B8B6;
+    margin-bottom: 10px;
+}
+
+#asymmetric
+{
+    width: 960px;
+    height: 800px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B7B8B6;
+    margin-bottom: 10px;
+}
+
+#example
+{
+    width: 960px;
+    height: 800px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B7B8B6;
+}
+
+p
+{
+    color: white;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    word-spacing: -5px;
+    text-align: center;
+}
+
+p.gray_column
+{
+    width: 60px;
+    height: 800px;
+    background-color: #EFEFEF;
+    position: relative;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    float: left;
+}
+
+
+
+/* ========== BLUE BOXES ========== */
+.blue_boxes > p
+{
+    opacity: 0.8;
+}
+
+#title_symmetric
+{
+    /* 940 width - 20 padding = 920 */
+    width: 920px;
+    height: 60px;
+    /* to vertically center text */
+    line-height: 60px;
+    background-color: #5CC5EF;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.blue_940
+{
+    width: 940px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #5CC5EF;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.blue_460
+{
+    width: 460px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #5CC5EF;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 240px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#blue_460_1 { left: 0px; }
+#blue_460_2 { left: 480px; }
+
+.blue_300
+{
+    width: 300px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #5CC5EF;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 380px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#blue_300_1 { left: 0px; }
+#blue_300_2 { left: 320px; }
+#blue_300_3 { left: 640px; }
+
+.blue_220
+{
+    width: 220px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #5CC5EF;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 520px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#blue_220_1 { left: 0px; }
+#blue_220_2 { left: 240px; }
+#blue_220_3 { left: 480px; }
+#blue_220_4 { left: 720px; }
+
+.blue_140
+{
+    width: 140px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #5CC5EF;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 660px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#blue_140_1 { left: 0px; }
+#blue_140_2 { left: 160px; }
+#blue_140_3 { left: 320px; }
+#blue_140_4 { left: 480px; }
+#blue_140_5 { left: 640px; }
+#blue_140_6 { left: 800px; }
+
+
+
+
+/* ========== GREEN BOXES ========== */
+.green_boxes > p
+{
+    opacity: 0.8;
+}
+
+#title_asymmetric
+{
+    /* 940 width - 20 padding = 920 */
+    width: 920px;
+    height: 60px;
+    /* to vertically center text */
+    line-height: 60px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#green_620
+{
+    width: 620px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 910px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    top: 920px;
+}
+
+#green_300
+{
+    width: 300px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 910px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 640px;
+    top: 920px;
+}
+
+#green_700
+{
+    width: 700px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1060px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 240px;
+}
+
+#green_220_1
+{
+    width: 220px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1060px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 0px;
+}
+
+#green_460
+{
+    width: 460px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1200px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#green_220_2
+{
+    width: 220px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1200px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 480px;
+}
+
+#green_220_3
+{
+    width: 220px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1200px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 720px;
+}
+
+#green_300_2
+{
+    width: 300px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1340px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 160px;
+}
+
+#green_300_3
+{
+    width: 300px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1340px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 640px;
+}
+
+#green_140_1
+{
+    width: 140px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1340px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 0px;
+}
+
+#green_140_2
+{
+    width: 140px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1340px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 480px;
+}
+
+#green_220_6
+{
+    width: 220px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1480px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 0px;
+}
+
+#green_220_7
+{
+    width: 220px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1480px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 240px;
+}
+
+#green_140_6
+{
+    width: 140px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1480px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 480px;
+}
+
+#green_140_7
+{
+    width: 140px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1480px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 640px;
+}
+
+#green_140_8
+{
+    width: 140px;
+    height: 120px;
+    /* to vertically center text */
+    line-height: 120px;
+    background-color: #A2C523;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1480px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 800px;
+}
+
+
+
+
+
+
+/* ========== ORANGE BOXES ========== */
+.orange_boxes > p
+{
+    opacity: 0.8;
+}
+
+#orange_nav
+{
+    /* 940 width - 20 padding = 920 */
+    width: 920px;
+    height: 60px;
+    /* to vertically center text */
+    line-height: 60px;
+    letter-spacing: 2px;
+    background-color: #E8A735;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1620px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.orange_940
+{
+    width: 940px;
+    height: 180px;
+    /* to vertically center text */
+    line-height: 180px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    background-color: #E8A735;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1720px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#orange_700
+{
+    width: 700px;
+    height: 240px;
+    /* to vertically center text */
+    line-height: 240px;
+    letter-spacing: 2px;
+    background-color: #E8A735;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1920px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 0px;
+}
+
+#orange_220_1
+{
+    width: 220px;
+    height: 240px;
+    /* to vertically center text */
+    line-height: 240px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    background-color: #E8A735;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 1920px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 720px;
+}
+
+#orange_300_1
+{
+    width: 300px;
+    height: 150px;
+    /* to vertically center text */
+    line-height: 150px;
+    letter-spacing: 2px;
+    background-color: #E8A735;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 2180px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 0px;
+}
+
+#orange_300_2
+{
+    width: 300px;
+    height: 150px;
+    /* to vertically center text */
+    line-height: 150px;
+    letter-spacing: 2px;
+    background-color: #E8A735;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 2180px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 320px;
+}
+
+#orange_300_3
+{
+    width: 300px;
+    height: 150px;
+    /* to vertically center text */
+    line-height: 150px;
+    letter-spacing: 2px;
+    background-color: #E8A735;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 2180px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    left: 640px;
+}
+
+#orange_footer
+{
+    width: 940px;
+    height: 60px;
+    /* to vertically center text */
+    line-height: 60px;
+    letter-spacing: 2px;
+    background-color: #E8A735;
+    /* specify position for z-index to take effect */
+    position: absolute;
+    z-index: 2;
+    top: 2330px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 24px;
+    text-align: center;
+}
